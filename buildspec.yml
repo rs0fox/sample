@@ -2,13 +2,12 @@ version: 0.2
 
 phases:
   install:
-    run: |
-      install dependencies
-      scripts/install_dependencies.sh
+    commands:
+      - install dependencies
+      - scripts/install_dependencies.sh
   build:
-    run: |
-      build and package
-      zip -r my-website.zip .
+    commands:
+      - zip -r my-website.zip.
 artifacts:
   files:
     - my-website.zip
