@@ -1,0 +1,11 @@
+{
+    "name": "my-website",
+    "version": "1.0.0",
+    "scripts": {
+      "install-dependencies": "node scripts/install-dependencies.js",
+      "build": "node scripts/build.js"
+    },
+    "dependencies": {
+      
+    }
+  }

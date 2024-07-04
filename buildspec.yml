@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - install dependencies
+      - npm install
       - scripts/install_dependencies.sh
   build:
     commands:
